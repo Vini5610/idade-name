@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tabela De Media</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <script>
+    var nome1 = prompt ("Escreva o nome da pessoa 1");
+    var sobrenome1 = prompt ("Escreva o sobrenomome da pessoa 1")
+    var idade1 = parseInt(prompt("Escreva a idade da pessoa 1"));
+
+    var nome2 = prompt ("Escreva o nome da pessoa 2");
+    var sobrenome2 = prompt ("Escreva o sobrenomome da pessoa 2")
+    var idade2 = parseInt(prompt("Escreva a idade da pessoa 2"));
+
+    var nome3 = prompt("Escreva o nome da pessoa 3");
+    var sobrenome3 = prompt("Escreva o sobrenome da pessoa 3");
+    var idade3 = parseInt(prompt("Escreva a idade da pessoa 3"));
+
+    document .write(nome1 + " " + sobrenome1 + ", " + idade1 + "<br>");
+    document .write(nome2 + " " + sobrenome2 + ", " + idade2 + "<br>");
+    document .write(nome3 + " " + sobrenome3 + ", " + idade3 + "<br>");
+
+    var somaidade = parseInt(idade1 + idade2 + idade3);
+    var mediaidade = (somaidade/3);
+    document.write("Media de idade:" + mediaidade);
+  </script>
+</body>
+</html>
